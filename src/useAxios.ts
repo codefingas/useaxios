@@ -74,5 +74,4 @@ export function useAxiosTs<T = unknown>(url?: string, options?: { [key: string]:
     }, [url])
 
     return state;
-
 };
